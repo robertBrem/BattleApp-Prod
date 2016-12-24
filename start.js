@@ -17,6 +17,7 @@ while ($OUT != "200") {
     execute(testUrl);
 }
 
+
 function execute(command) {
     $EXEC(command);
     print($OUT);
